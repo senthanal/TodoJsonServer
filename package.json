@@ -1,30 +1,31 @@
 {
-  "name": "todojsonserver",
-  "version": "1.0.0",
-  "description": "A Todo fake api server",
-  "main": "index.js",
-  "scripts": {
-    "server": "json-server --routes routes.json --watch db.json",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "dependencies": {},
-  "devDependencies": {
-    "json-server": "~0.17.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/senthanal/TodoJsonServer.git"
-  },
-  "keywords": [
-    "todo",
-    "server",
-    "api",
-    "fake"
-  ],
-  "author": "Senthanal Sirpi Manohar",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/senthanal/TodoJsonServer/issues"
-  },
-  "homepage": "https://github.com/senthanal/TodoJsonServer#readme"
+    "name": "todojsonserver",
+    "version": "1.0.0",
+    "description": "A Todo fake api server",
+    "main": "index.js",
+    "scripts": {
+        "server": "json-server --routes routes.json --watch db.json",
+        "serve": "node index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "json-server": "~0.17.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/senthanal/TodoJsonServer.git"
+    },
+    "keywords": [
+        "todo",
+        "server",
+        "api",
+        "fake"
+    ],
+    "author": "Senthanal Sirpi Manohar",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/senthanal/TodoJsonServer/issues"
+    },
+    "homepage": "https://github.com/senthanal/TodoJsonServer#readme"
 }

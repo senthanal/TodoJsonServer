@@ -1,7 +1,14 @@
 {
-    "todos": [{
-        "id": 1,
-        "title": "Java",
-        "content": "A well known programming language"
-    }]
+  "todos": [
+    {
+      "id": 1,
+      "title": "Java",
+      "content": "A well known programming language"
+    },
+    {
+      "id": 2,
+      "title": "Angular",
+      "content": "A frontend framework"
+    }
+  ]
 }
